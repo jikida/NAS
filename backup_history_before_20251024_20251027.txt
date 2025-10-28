@@ -1,0 +1,414 @@
+Zpracovávám nalezené řádky a filtrované seznamy...
+==== RAW matches (first 200 lines) ====
+/var/log/syslog:2083:Oct 27 23:00:01 sep-server CRON[37777]: (sep) CMD (/home/sep/scripts/backup.sh)
+/var/log/syslog:2084:Oct 27 23:00:01 sep-server rsyncd[37782]: rsync: [client] failed to open log-file /mnt2/backup_logs/backup-2025-10-27 23:00:01.log: No such file or directory (2)
+/var/log/syslog:2085:Oct 27 23:00:01 sep-server rsyncd[37782]: Ignoring "log file" setting.
+/var/log/syslog:2086:Oct 27 23:00:01 sep-server rsyncd[37782]: building file list
+/var/log/syslog:2087:Oct 27 23:00:02 sep-server rsyncd[37782]: rsync: [sender] write error: Broken pipe (32)
+/var/log/syslog:2088:Oct 27 23:00:02 sep-server rsyncd[37782]: sent 1103 bytes  received 8 bytes  total size 542276460
+/var/log/syslog:2089:Oct 27 23:00:02 sep-server rsyncd[37782]: rsync error: error in file IO (code 11) at io.c(849) [sender=3.2.7]
+/var/log/syslog:2090:Oct 27 23:00:02 sep-server rsyncd[37784]: rsync: [client] failed to open log-file /mnt2/backup_logs/backup-2025-10-27 23:00:01.log: No such file or directory (2)
+/var/log/syslog:2091:Oct 27 23:00:02 sep-server rsyncd[37784]: Ignoring "log file" setting.
+/var/log/syslog:2092:Oct 27 23:00:02 sep-server rsyncd[37784]: building file list
+/var/log/syslog:2093:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/
+/var/log/syslog:2094:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Logo-SEP Maintenance s.r.o.docx
+/var/log/syslog:2095:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/SEP Maintenance-Hlavičkový papír.docx
+/var/log/syslog:2096:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/SEP Maintenance-Logo.jpg
+/var/log/syslog:2097:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/SEP Maintenance-logo_175x95mm.pdf
+/var/log/syslog:2098:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Sklady.xlsx
+/var/log/syslog:2099:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Telefonní seznam SEP Maintenance.xls
+/var/log/syslog:2100:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/sep-maintenance hlav papir-upraveny.pdf
+/var/log/syslog:2101:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/
+/var/log/syslog:2102:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2014/
+/var/log/syslog:2103:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2014/Ceník ND RWA Essmann 09-2014-ČR.pdf
+/var/log/syslog:2104:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2014/Ceník ND ZOKT+denní větrání 09-2014-SR.pdf
+/var/log/syslog:2105:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2014/Ceník ND ZOKT+denní větrání 09-2014-ČR.pdf
+/var/log/syslog:2106:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2014/Thumbs.db
+/var/log/syslog:2107:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/
+/var/log/syslog:2108:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/Ceník ND RWA Essmann 01-2015-SR.pdf
+/var/log/syslog:2109:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/Ceník ND RWA Essmann 01-2015-SR.xlsx
+/var/log/syslog:2110:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/Ceník ND RWA Essmann 01-2015-ČR.pdf
+/var/log/syslog:2111:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/Ceník ND RWA Essmann 01-2015-ČR.xlsx
+/var/log/syslog:2112:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/Ceník ND ZOKT+denní větrání 01-2015-SR.pdf
+/var/log/syslog:2113:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/Ceník ND ZOKT+denní větrání 01-2015-SR.xlsx
+/var/log/syslog:2114:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/Ceník ND ZOKT+denní větrání 01-2015-ČR.pdf
+/var/log/syslog:2115:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2015/Ceník ND ZOKT+denní větrání 01-2015-ČR.xlsx
+/var/log/syslog:2116:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/
+/var/log/syslog:2117:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Ceník ND RWA Essmann 01-2016-SR.pdf
+/var/log/syslog:2118:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Ceník ND RWA Essmann 01-2016-SR.xlsx
+/var/log/syslog:2119:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Ceník ND RWA Essmann 01-2016-ČR.pdf
+/var/log/syslog:2120:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Ceník ND RWA Essmann 01-2016-ČR.xlsx
+/var/log/syslog:2121:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Ceník ND ZOKT+denní větrání 01-2016-SR.pdf
+/var/log/syslog:2122:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Ceník ND ZOKT+denní větrání 01-2016-SR.xlsx
+/var/log/syslog:2123:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Ceník ND ZOKT+denní větrání 01-2016-ČR.pdf
+/var/log/syslog:2124:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Ceník ND ZOKT+denní větrání 01-2016-ČR.xlsx
+/var/log/syslog:2125:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2016/Thumbs.db
+/var/log/syslog:2126:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/
+/var/log/syslog:2127:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Ceník ND RWA Essmann 01-2017-SR.pdf
+/var/log/syslog:2128:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Ceník ND RWA Essmann 01-2017-SR.xlsx
+/var/log/syslog:2129:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Ceník ND RWA Essmann 01-2017-ČR.pdf
+/var/log/syslog:2130:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Ceník ND RWA Essmann 01-2017-ČR.xlsx
+/var/log/syslog:2131:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Ceník ND SEP ZOKT+denní větrání 01-2017-SR.pdf
+/var/log/syslog:2132:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Ceník ND SEP ZOKT+denní větrání 01-2017-SR.xlsx
+/var/log/syslog:2133:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Ceník ND SEP ZOKT+denní větrání 01-2017-ČR.pdf
+/var/log/syslog:2134:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Ceník ND SEP ZOKT+denní větrání 01-2017-ČR.xlsx
+/var/log/syslog:2135:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Thumbs.db
+/var/log/syslog:2136:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Záloha Ceník ND SEP ZOKT+denní větrání 01-2017-SR.xlk
+/var/log/syslog:2137:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2017/Záloha Ceník ND SEP ZOKT+denní větrání 01-2017-ČR.xlk
+/var/log/syslog:2138:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/
+/var/log/syslog:2139:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Ceník ND RWA Essmann 01-2018-SR.pdf
+/var/log/syslog:2140:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Ceník ND RWA Essmann 01-2018-SR.xlsx
+/var/log/syslog:2141:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Ceník ND RWA Essmann 01-2018-ČR.pdf
+/var/log/syslog:2142:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Ceník ND RWA Essmann 01-2018-ČR.xlsx
+/var/log/syslog:2143:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Ceník ND SEP ZOKT+denní větrání 01-2018-SR.pdf
+/var/log/syslog:2144:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Ceník ND SEP ZOKT+denní větrání 01-2018-SR.xlsx
+/var/log/syslog:2145:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Ceník ND SEP ZOKT+denní větrání 01-2018-ČR.pdf
+/var/log/syslog:2146:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Ceník ND SEP ZOKT+denní větrání 01-2018-ČR.xlsx
+/var/log/syslog:2147:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/Thumbs.db
+/var/log/syslog:2148:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2018/~$Ceník ND SEP ZOKT+denní větrání 01-2018-SR.xlsx
+/var/log/syslog:2149:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/
+/var/log/syslog:2150:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/Ceník ND RWA Essmann 01-2019-SR.pdf
+/var/log/syslog:2151:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/Ceník ND RWA Essmann 01-2019-SR.xlsx
+/var/log/syslog:2152:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/Ceník ND RWA Essmann 01-2019-ČR.pdf
+/var/log/syslog:2153:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/Ceník ND RWA Essmann 01-2019-ČR.xlsx
+/var/log/syslog:2154:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/Ceník ND SEP ZOKT+denní větrání 01-2019-SR.pdf
+/var/log/syslog:2155:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/Ceník ND SEP ZOKT+denní větrání 01-2019-SR.xlsx
+/var/log/syslog:2156:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/Ceník ND SEP ZOKT+denní větrání 01-2019-ČR.pdf
+/var/log/syslog:2157:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2019/Ceník ND SEP ZOKT+denní větrání 01-2019-ČR.xlsx
+/var/log/syslog:2158:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/
+/var/log/syslog:2159:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/Ceník ND RWA Essmann 01-2020-SR.pdf
+/var/log/syslog:2160:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/Ceník ND RWA Essmann 01-2020-SR.xlsx
+/var/log/syslog:2161:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/Ceník ND RWA Essmann 01-2020-ČR.pdf
+/var/log/syslog:2162:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/Ceník ND RWA Essmann 01-2020-ČR.xlsx
+/var/log/syslog:2163:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/Ceník ND SEP ZOKT+denní větrání 01-2020-SR.pdf
+/var/log/syslog:2164:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/Ceník ND SEP ZOKT+denní větrání 01-2020-SR.xlsx
+/var/log/syslog:2165:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/Ceník ND SEP ZOKT+denní větrání 01-2020-ČR.pdf
+/var/log/syslog:2166:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2020/Ceník ND SEP ZOKT+denní větrání 01-2020-ČR.xlsx
+/var/log/syslog:2167:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/
+/var/log/syslog:2168:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND RWA Essmann 01-2021-SR.pdf
+/var/log/syslog:2169:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND RWA Essmann 01-2021-SR.xlsx
+/var/log/syslog:2170:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND RWA Essmann 01-2021-ČR.pdf
+/var/log/syslog:2171:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND RWA Essmann 01-2021-ČR.xlsx
+/var/log/syslog:2172:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND SEP ZOKT+denní větrání 01-2021-SR.pdf
+/var/log/syslog:2173:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND SEP ZOKT+denní větrání 01-2021-SR.xlsx
+/var/log/syslog:2174:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND SEP ZOKT+denní větrání 01-2021-pro Tesco.xlsx
+/var/log/syslog:2175:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND SEP ZOKT+denní větrání 01-2021-ČR.pdf
+/var/log/syslog:2176:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2021/Ceník ND SEP ZOKT+denní větrání 01-2021-ČR.xlsx
+/var/log/syslog:2177:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/
+/var/log/syslog:2178:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Ceník ND RWA Essmann 01-2022-SR.pdf
+/var/log/syslog:2179:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Ceník ND RWA Essmann 01-2022-SR.xlsx
+/var/log/syslog:2180:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Ceník ND RWA Essmann 01-2022-ČR.pdf
+/var/log/syslog:2181:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Ceník ND RWA Essmann 01-2022-ČR.xlsx
+/var/log/syslog:2182:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Ceník ND SEP ZOKT+denní větrání 01-2022-SR.pdf
+/var/log/syslog:2183:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Ceník ND SEP ZOKT+denní větrání 01-2022-SR.xlsx
+/var/log/syslog:2184:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Ceník ND SEP ZOKT+denní větrání 01-2022-ČR.pdf
+/var/log/syslog:2185:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Ceník ND SEP ZOKT+denní větrání 01-2022-ČR.xlsx
+/var/log/syslog:2187:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.05.2022/
+/var/log/syslog:2188:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.05.2022/Ceník ND RWA Essmann 05-2022-ČR.pdf
+/var/log/syslog:2189:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.05.2022/Ceník ND RWA Essmann 05-2022-ČR.xlsx
+/var/log/syslog:2190:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.05.2022/Ceník ND SEP ZOKT+denní větrání 05-2022-SR.pdf
+/var/log/syslog:2191:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.05.2022/Ceník ND SEP ZOKT+denní větrání 05-2022-SR.xlsx
+/var/log/syslog:2192:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.05.2022/Ceník ND SEP ZOKT+denní větrání 05-2022-ČR.pdf
+/var/log/syslog:2193:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.05.2022/Ceník ND SEP ZOKT+denní větrání 05-2022-ČR.xlsx
+/var/log/syslog:2194:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.08.2022/
+/var/log/syslog:2195:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.08.2022/Ceník ND RWA Essmann 08-2022-ČR.pdf
+/var/log/syslog:2196:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.08.2022/Ceník ND RWA Essmann 08-2022-ČR.xlsx
+/var/log/syslog:2197:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.08.2022/Ceník ND SEP ZOKT+denní větrání 05-2022-SR.pdf
+/var/log/syslog:2198:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.08.2022/Ceník ND SEP ZOKT+denní větrání 05-2022-SR.xlsx
+/var/log/syslog:2199:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.08.2022/Ceník ND SEP ZOKT+denní větrání 08-2022-ČR.pdf
+/var/log/syslog:2200:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2022/Nové ceníky od 01.08.2022/Ceník ND SEP ZOKT+denní větrání 08-2022-ČR.xlsx
+/var/log/syslog:2201:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/
+/var/log/syslog:2202:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/Ceník ND RWA Essmann 01-2023-SR.pdf
+/var/log/syslog:2203:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/Ceník ND RWA Essmann 01-2023-SR.xlsx
+/var/log/syslog:2204:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/Ceník ND RWA Essmann 01-2023-ČR.pdf
+/var/log/syslog:2205:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/Ceník ND RWA Essmann 01-2023-ČR.xlsx
+/var/log/syslog:2206:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/Ceník ND SEP ZOKT+denní větrání 01-2023-SR.pdf
+/var/log/syslog:2207:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/Ceník ND SEP ZOKT+denní větrání 01-2023-SR.xlsx
+/var/log/syslog:2208:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/Ceník ND SEP ZOKT+denní větrání 01-2023-ČR.pdf
+/var/log/syslog:2209:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2023/Ceník ND SEP ZOKT+denní větrání 01-2023-ČR.xlsx
+/var/log/syslog:2210:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/
+/var/log/syslog:2211:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/Ceník ND RWA Essmann 01-2024-SR.pdf
+/var/log/syslog:2212:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/Ceník ND RWA Essmann 01-2024-SR.xlsx
+/var/log/syslog:2213:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/Ceník ND RWA Essmann 01-2024-ČR.pdf
+/var/log/syslog:2214:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/Ceník ND RWA Essmann 01-2024-ČR.xlsx
+/var/log/syslog:2215:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/Ceník ND SEP ZOKT+denní větrání 01-2024-SR.pdf
+/var/log/syslog:2216:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/Ceník ND SEP ZOKT+denní větrání 01-2024-SR.xlsx
+/var/log/syslog:2217:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/Ceník ND SEP ZOKT+denní větrání 01-2024-ČR.pdf
+/var/log/syslog:2218:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2024/Ceník ND SEP ZOKT+denní větrání 01-2024-ČR.xlsx
+/var/log/syslog:2219:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/
+/var/log/syslog:2220:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Ceník ND RWA Essmann 01-2025-SR.pdf
+/var/log/syslog:2221:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Ceník ND RWA Essmann 01-2025-SR.xlsx
+/var/log/syslog:2222:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Ceník ND RWA Essmann 01-2025-ČR.pdf
+/var/log/syslog:2223:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Ceník ND RWA Essmann 01-2025-ČR.xlsx
+/var/log/syslog:2224:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Ceník ND SEP ZOKT+denní větrání 01-2025-SR.pdf
+/var/log/syslog:2225:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Ceník ND SEP ZOKT+denní větrání 01-2025-SR.xlsx
+/var/log/syslog:2226:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Ceník ND SEP ZOKT+denní větrání 01-2025-ČR.pdf
+/var/log/syslog:2227:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Ceník ND SEP ZOKT+denní větrání 01-2025-ČR.xlsx
+/var/log/syslog:2228:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/FW  Kingspan-ND ESSMANN-žádost o cenu pro rok 2025.eml
+/var/log/syslog:2229:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/KIP_25_1009_PB - Náhradní díly ESSMANN.pdf
+/var/log/syslog:2230:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Kingspan-ND ESSMANN-žádost o cenu pro rok 2025.eml
+/var/log/syslog:2231:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Záloha Ceník ND RWA Essmann 01-2025-SR.xlk
+/var/log/syslog:2232:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Ceníky SEP 2025/Záloha Ceník ND RWA Essmann 01-2025-ČR.xlk
+/var/log/syslog:2233:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Ceníky SEP/Vzory ceníků SEP/
+/var/log/syslog:2234:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Vzory ceníků SEP/Ceník ND RWA Essmann 09-2014-SR.xlsx
+/var/log/syslog:2235:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Vzory ceníků SEP/Ceník ND RWA Essmann 09-2014-ČR pro MAKRO.xlsx
+/var/log/syslog:2236:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Vzory ceníků SEP/Ceník ND RWA Essmann 09-2014-ČR.xlsx
+/var/log/syslog:2237:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Vzory ceníků SEP/Ceník ND ZOKT+denní větrání 09-2014-SR.xlsx
+/var/log/syslog:2238:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Vzory ceníků SEP/Ceník ND ZOKT+denní větrání 09-2014-ČR.xlsx
+/var/log/syslog:2239:Oct 27 23:00:02 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Ceníky SEP/Vzory ceníků SEP/Záloha Ceník ND RWA Essmann 09-2014-SR.xlk
+/var/log/syslog:2240:Oct 27 23:00:02 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/
+/var/log/syslog:2241:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Protokol 16 MM-odkapávání se síťkou.pdf
+/var/log/syslog:2242:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Protokol 25MM.pdf
+/var/log/syslog:2243:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/QUINN SAN  protokol 80030188-3 Odkvapkávanie z podhľadov a stropov striech.pdf
+/var/log/syslog:2244:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/SAN prohlaseni o shode.jpg
+/var/log/syslog:2245:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/SEP Maintenance-prohlášení dodavatele o pneumatických zámcích.docx
+/var/log/syslog:2246:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/SEP Maintenance-prohlášení dodavatele o pohonech JOFO.docx
+/var/log/syslog:2247:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Smlouva SEP ESSMANN vs SEP Maintenace.pdf
+/var/log/syslog:2248:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Certifikát SEP ZOKT klapa/
+/var/log/syslog:2249:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Certifikát SEP ZOKT klapa/1391-CPR-2025_0056.pdf
+/var/log/syslog:2250:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Certifikát SEP ZOKT klapa/P-1391-CPR-2025_0056.pdf
+/var/log/syslog:2251:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Certifikát SEP ZOKT okno/
+/var/log/syslog:2252:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Certifikát SEP ZOKT okno/1391-CPR-2025_0057.pdf
+/var/log/syslog:2253:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Certifikát SEP ZOKT okno/P-1391-CPR-2025_0057.pdf
+/var/log/syslog:2254:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/
+/var/log/syslog:2255:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/CU trubky.eml
+/var/log/syslog:2256:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/Cu Trubičky.rar
+/var/log/syslog:2257:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/Cu trubky2.eml
+/var/log/syslog:2258:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/Prohlášení o shodě HETCOOL.pdf
+/var/log/syslog:2259:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/TECTUBE_cips_med_2019.pdf
+/var/log/syslog:2260:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/TÜV Zertifikat DIN EN 12735_EN.pdf
+/var/log/syslog:2261:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/TÜV Zertifikat DIN EN 13348_EN.pdf
+/var/log/syslog:2262:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/Cu Trubičky/
+/var/log/syslog:2263:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/Cu Trubičky/Prohlášení o shodě HETCOOL.pdf
+/var/log/syslog:2264:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/Cu Trubičky/TECTUBE_cips_med_2019.pdf
+/var/log/syslog:2265:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/Cu Trubičky/TÜV Zertifikat DIN EN 12735_EN.pdf
+/var/log/syslog:2266:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/Cu trubičky/Cu Trubičky/TÜV Zertifikat DIN EN 13348_EN.pdf
+/var/log/syslog:2267:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/
+/var/log/syslog:2268:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát NRWG LK 24V 160 ESSMANN/
+/var/log/syslog:2269:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát NRWG LK 24V 160 ESSMANN/CE-Konformitätserklärung_NRWG LK 24V 160.pdf
+/var/log/syslog:2270:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát RWA žaluzií LL, ALL ESSMANN/
+/var/log/syslog:2271:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát RWA žaluzií LL, ALL ESSMANN/DE Certifikát na RWA žaluzie ESSMANN.PDF
+/var/log/syslog:2272:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát RWG F6-D2.6 do kopulových světlíků ESSMANN-LK/
+/var/log/syslog:2273:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát RWG F6-D2.6 do kopulových světlíků ESSMANN-LK/DE Certifikát F6-D1.1 až D2.1 pro LB,F6-D2.6 pro LK.PDF
+/var/log/syslog:2274:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát RWG F6-D2.6 do kopulových světlíků ESSMANN-LK/ENG certifikát F6-D1.1 až D2.1 pro LB,F6-D2.6 pro LK.pdf
+/var/log/syslog:2275:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát RWG F8 do kopulových světlíků ESSMANN-LK/
+/var/log/syslog:2276:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikát RWG F8 do kopulových světlíků ESSMANN-LK/DE Certifikát RWG F8 do kopulových světlíků ESSMANN-LK.PDF
+/var/log/syslog:2277:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikáty RWG F6 do obloukových světlíků ESSMANN-LB 940-10/
+/var/log/syslog:2278:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikáty RWG F6 do obloukových světlíků ESSMANN-LB 940-10/DE Certifikát F6-D1.1 až D2.1 pro LB,F6-D2.6 pro LK.PDF
+/var/log/syslog:2279:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikáty RWG F6 do obloukových světlíků ESSMANN-LB 940-10/DE certifikát F6 LB 940-10-SCN_20080519113905_001.pdf
+/var/log/syslog:2280:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikáty RWG F6 do obloukových světlíků ESSMANN-LB 940-10/ENG certifikát F6 LB 940-10-SCN_20080519113958_001.pdf
+/var/log/syslog:2281:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikáty RWG F6 do obloukových světlíků ESSMANN-LB 940-10/ENG certifikát F6-D1.1 až D2.1 pro LB,F6-D2.6 pro LK.pdf
+/var/log/syslog:2282:Oct 27 23:00:03 sep-server rsyncd[37784]: cd+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikáty RWG F6 do sedlových a bodových světlíků ESSMANN-LB-940-20/
+/var/log/syslog:2283:Oct 27 23:00:03 sep-server rsyncd[37784]: >f+++++++++ sep-network-disk/Certifikáty a prohlášení o shodě/ESSMANN-Prohlášení o shodě+certifikáty/Certifikáty RWG F6 do sedlových a bodových světlíků ESSMANN-LB-940-20/Certifikát F6.PDF
+
+==== Entries in October BEFORE 24th (possible earlier backups) ====
+
+==== Entries ON Oct 24 (selected) ====
+
+==== Entries ON Oct 27 (selected) ====
+
+==== Summary of dates with matches (unique) ====
+
+==== tail /var/log/syslog (last 200 lines) ====
+Oct 28 02:54:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 119 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 02:55:01 sep-server CRON[38874]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 02:55:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 03:04:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 119 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 03:05:01 sep-server CRON[38915]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 03:05:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 03:09:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 59 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 03:10:01 sep-server CRON[38937]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Oct 28 03:10:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 03:14:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 59 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 03:15:01 sep-server CRON[38958]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 03:15:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 03:16:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 23 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 03:17:01 sep-server CRON[38967]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 28 03:17:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 03:24:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 95 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 03:25:01 sep-server CRON[39002]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 03:25:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 03:34:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 119 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 03:35:01 sep-server CRON[39043]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 03:35:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 03:44:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 119 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 03:45:01 sep-server CRON[39083]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 03:45:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 03:54:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 119 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 03:55:01 sep-server CRON[39124]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 03:55:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:04:59 sep-server gnome-system-monitor.desktop[5250]: message repeated 119 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:05:01 sep-server CRON[39164]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 04:05:04 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:15:00 sep-server gnome-system-monitor.desktop[5250]: message repeated 119 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:15:01 sep-server CRON[39203]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 04:15:05 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:17:00 sep-server gnome-system-monitor.desktop[5250]: message repeated 23 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:17:01 sep-server CRON[39212]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 28 04:17:05 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:25:00 sep-server gnome-system-monitor.desktop[5250]: message repeated 95 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:25:01 sep-server CRON[39246]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 04:25:05 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:30:18 sep-server kernel: [305178.937297] tg3 0000:02:00.1 eno2: Link is down
+Oct 28 04:30:15 sep-server gnome-system-monitor.desktop[5250]: message repeated 62 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:30:18 sep-server systemd-networkd[619]: eno2: Lost carrier
+Oct 28 04:30:18 sep-server avahi-daemon[853]: Withdrawing address record for 192.168.0.174 on eno2.
+Oct 28 04:30:18 sep-server systemd-networkd[619]: eno2: DHCP lease lost
+Oct 28 04:30:18 sep-server avahi-daemon[853]: Leaving mDNS multicast group on interface eno2.IPv4 with address 192.168.0.174.
+Oct 28 04:30:18 sep-server avahi-daemon[853]: Interface eno2.IPv4 no longer relevant for mDNS.
+Oct 28 04:30:18 sep-server systemd-networkd[619]: eno2: DHCPv6 lease lost
+Oct 28 04:30:18 sep-server systemd-timesyncd[655]: No network connectivity, watching for changes.
+Oct 28 04:30:20 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:31:46 sep-server kernel: [305266.943654] tg3 0000:02:00.1 eno2: Link is up at 1000 Mbps, full duplex
+Oct 28 04:31:46 sep-server kernel: [305266.943675] tg3 0000:02:00.1 eno2: Flow control is on for TX and on for RX
+Oct 28 04:31:46 sep-server kernel: [305266.943682] tg3 0000:02:00.1 eno2: EEE is enabled
+Oct 28 04:31:45 sep-server gnome-system-monitor.desktop[5250]: message repeated 17 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:31:46 sep-server NetworkManager[856]: <info>  [1761622306.8324] device (eno2): carrier: link connected
+Oct 28 04:31:46 sep-server systemd-networkd[619]: eno2: Gained carrier
+Oct 28 04:31:46 sep-server systemd-timesyncd[655]: Network configuration changed, trying to establish connection.
+Oct 28 04:31:50 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:31:53 sep-server kernel: [305273.484608] tg3 0000:02:00.1 eno2: Link is down
+Oct 28 04:31:53 sep-server systemd-networkd[619]: eno2: Lost carrier
+Oct 28 04:31:53 sep-server systemd-networkd[619]: eno2: DHCPv6 lease lost
+Oct 28 04:31:55 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:31:56 sep-server kernel: [305276.528559] tg3 0000:02:00.1 eno2: Link is up at 1000 Mbps, full duplex
+Oct 28 04:31:56 sep-server kernel: [305276.528579] tg3 0000:02:00.1 eno2: Flow control is on for TX and on for RX
+Oct 28 04:31:56 sep-server kernel: [305276.528585] tg3 0000:02:00.1 eno2: EEE is enabled
+Oct 28 04:31:56 sep-server NetworkManager[856]: <info>  [1761622316.4175] device (eno2): carrier: link connected
+Oct 28 04:31:56 sep-server systemd-networkd[619]: eno2: Gained carrier
+Oct 28 04:31:56 sep-server systemd-timesyncd[655]: Network configuration changed, trying to establish connection.
+Oct 28 04:32:00 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:32:05 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:32:05 sep-server systemd-networkd[619]: eno2: Lost carrier
+Oct 28 04:32:05 sep-server kernel: [305285.827425] tg3 0000:02:00.1 eno2: Link is down
+Oct 28 04:32:05 sep-server systemd-networkd[619]: eno2: DHCPv6 lease lost
+Oct 28 04:32:08 sep-server kernel: [305288.722197] tg3 0000:02:00.1 eno2: Link is up at 1000 Mbps, full duplex
+Oct 28 04:32:08 sep-server kernel: [305288.722215] tg3 0000:02:00.1 eno2: Flow control is on for TX and on for RX
+Oct 28 04:32:08 sep-server kernel: [305288.722220] tg3 0000:02:00.1 eno2: EEE is enabled
+Oct 28 04:32:08 sep-server NetworkManager[856]: <info>  [1761622328.6112] device (eno2): carrier: link connected
+Oct 28 04:32:08 sep-server systemd-networkd[619]: eno2: Gained carrier
+Oct 28 04:32:08 sep-server systemd-timesyncd[655]: Network configuration changed, trying to establish connection.
+Oct 28 04:32:10 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:32:35 sep-server gnome-system-monitor.desktop[5250]: message repeated 5 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:32:38 sep-server systemd-timesyncd[655]: Network configuration changed, trying to establish connection.
+Oct 28 04:32:40 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:32:44 sep-server systemd-networkd[619]: eno2: DHCPv4 address 192.168.0.174/24 via 192.168.0.100
+Oct 28 04:32:44 sep-server systemd-timesyncd[655]: Network configuration changed, trying to establish connection.
+Oct 28 04:32:44 sep-server avahi-daemon[853]: Joining mDNS multicast group on interface eno2.IPv4 with address 192.168.0.174.
+Oct 28 04:32:44 sep-server avahi-daemon[853]: New relevant interface eno2.IPv4 for mDNS.
+Oct 28 04:32:44 sep-server avahi-daemon[853]: Registering new address record for 192.168.0.174 on eno2.IPv4.
+Oct 28 04:32:44 sep-server systemd-resolved[714]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.0.100.
+Oct 28 04:32:44 sep-server systemd-timesyncd[655]: Initial synchronization to time server 185.125.190.56:123 (ntp.ubuntu.com).
+Oct 28 04:32:45 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:35:00 sep-server gnome-system-monitor.desktop[5250]: message repeated 27 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:35:01 sep-server CRON[39318]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 04:35:05 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:42:35 sep-server gnome-system-monitor.desktop[5250]: message repeated 90 times: [ glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted]
+Oct 28 04:42:39 sep-server zerotier-one[25229]: terminate called after throwing an instance of 'std::bad_cast'
+Oct 28 04:42:39 sep-server zerotier-one[25229]:   what():  std::bad_cast
+Oct 28 04:42:39 sep-server systemd[1387]: Starting Notification regarding a crash report...
+Oct 28 04:42:39 sep-server systemd[1]: Started crash report submission.
+Oct 28 04:42:39 sep-server update-notifier-crash[39350]: /usr/bin/whoopsie
+Oct 28 04:42:40 sep-server avahi-daemon[853]: Interface ztjlh5dmlo.IPv6 no longer relevant for mDNS.
+Oct 28 04:42:40 sep-server systemd-networkd[619]: ztjlh5dmlo: Link DOWN
+Oct 28 04:42:40 sep-server avahi-daemon[853]: Leaving mDNS multicast group on interface ztjlh5dmlo.IPv6 with address fe80::78f1:29ff:fe2a:7e48.
+Oct 28 04:42:40 sep-server systemd-networkd[619]: ztjlh5dmlo: Lost carrier
+Oct 28 04:42:40 sep-server avahi-daemon[853]: Interface ztjlh5dmlo.IPv4 no longer relevant for mDNS.
+Oct 28 04:42:40 sep-server avahi-daemon[853]: Leaving mDNS multicast group on interface ztjlh5dmlo.IPv4 with address 10.10.0.170.
+Oct 28 04:42:40 sep-server avahi-daemon[853]: Withdrawing address record for fe80::78f1:29ff:fe2a:7e48 on ztjlh5dmlo.
+Oct 28 04:42:40 sep-server avahi-daemon[853]: Withdrawing address record for 10.10.0.170 on ztjlh5dmlo.
+Oct 28 04:42:40 sep-server systemd[1]: zerotier-one.service: Main process exited, code=killed, status=6/ABRT
+Oct 28 04:42:40 sep-server systemd[1]: zerotier-one.service: Failed with result 'signal'.
+Oct 28 04:42:40 sep-server systemd[1]: zerotier-one.service: Consumed 3min 52.870s CPU time.
+Oct 28 04:42:40 sep-server gnome-shell[1712]: Removing a network device that was not added
+Oct 28 04:42:40 sep-server whoopsie[39348]: [04:42:40] Using lock path: /var/lock/whoopsie/lock
+Oct 28 04:42:40 sep-server gnome-system-monitor.desktop[5250]: glibtop(c=5250): [WARNING] statvfs '/run/user/1000/doc' failed: Operation not permitted
+Oct 28 04:42:40 sep-server systemd[1]: whoopsie.service: Deactivated successfully.
+Oct 28 04:42:40 sep-server systemd[1]: zerotier-one.service: Scheduled restart job, restart counter is at 1.
+Oct 28 04:42:40 sep-server systemd[1]: Stopped ZeroTier One.
+Oct 28 04:42:40 sep-server systemd[1]: zerotier-one.service: Consumed 3min 52.870s CPU time.
+Oct 28 04:42:40 sep-server systemd[1]: Started ZeroTier One.
+Oct 28 04:42:40 sep-server systemd[1387]: Finished Notification regarding a crash report.
+Oct 28 04:42:40 sep-server zerotier-one[39362]: Starting Control Plane...
+Oct 28 04:42:40 sep-server zerotier-one[39362]: Starting V6 Control Plane...
+Oct 28 04:42:40 sep-server networkd-dispatcher[864]: WARNING:Unknown index 7 seen, reloading interface list
+Oct 28 04:42:40 sep-server NetworkManager[856]: <info>  [1761622960.3629] manager: (ztjlh5dmlo): new Tun device (/org/freedesktop/NetworkManager/Devices/7)
+Oct 28 04:42:40 sep-server systemd-udevd[39395]: Using default interface naming scheme 'v249'.
+Oct 28 04:42:40 sep-server avahi-daemon[853]: Joining mDNS multicast group on interface ztjlh5dmlo.IPv4 with address 10.10.0.170.
+Oct 28 04:42:40 sepOct 28 16:15:01 sep-server CRON[460881]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 16:17:01 sep-server CRON[460930]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 28 16:25:01 sep-server CRON[461160]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 16:30:01 sep-server CRON[461182]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Oct 28 16:31:05 sep-server systemd[1]: Started Run anacron jobs.
+Oct 28 16:31:05 sep-server anacron[461186]: Anacron 2.3 started on 2025-10-28
+Oct 28 16:31:05 sep-server anacron[461186]: Normal exit (0 jobs run)
+Oct 28 16:31:05 sep-server systemd[1]: anacron.service: Deactivated successfully.
+Oct 28 16:35:01 sep-server CRON[461205]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 16:39:01 sep-server CRON[461220]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Oct 28 16:45:01 sep-server CRON[461246]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 16:50:19 sep-server systemd[1]: session-780.scope: Deactivated successfully.
+Oct 28 16:50:19 sep-server systemd[1]: session-780.scope: Consumed 54.289s CPU time.
+Oct 28 16:50:28 sep-server systemd[1]: Started Session 790 of User sep.
+Oct 28 16:55:01 sep-server CRON[461426]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 17:05:01 sep-server CRON[461462]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 17:15:01 sep-server CRON[461499]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 17:17:01 sep-server CRON[461508]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 28 17:19:32 sep-server systemd-resolved[714]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.0.100.
+Oct 28 17:19:32 sep-server systemd-resolved[714]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.0.100.
+Oct 28 17:25:01 sep-server CRON[461542]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 17:30:01 sep-server CRON[461565]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Oct 28 17:34:05 sep-server systemd[1]: Started Run anacron jobs.
+Oct 28 17:34:05 sep-server anacron[461581]: Anacron 2.3 started on 2025-10-28
+Oct 28 17:34:05 sep-server anacron[461581]: Normal exit (0 jobs run)
+Oct 28 17:34:05 sep-server systemd[1]: anacron.service: Deactivated successfully.
+Oct 28 17:35:01 sep-server CRON[461590]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 17:45:02 sep-server CRON[461626]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 17:55:02 sep-server CRON[461665]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 18:05:02 sep-server CRON[461704]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 18:12:21 sep-server systemd[1]: session-790.scope: Deactivated successfully.
+Oct 28 18:12:21 sep-server systemd[1]: session-790.scope: Consumed 21.387s CPU time.
+Oct 28 18:12:28 sep-server systemd[1]: Started Session 801 of User sep.
+Oct 28 18:15:01 sep-server CRON[461999]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 18:17:01 sep-server CRON[462010]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 28 18:25:01 sep-server CRON[462157]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 18:30:01 sep-server CRON[462177]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Oct 28 18:34:06 sep-server systemd[1]: Started Run anacron jobs.
+Oct 28 18:34:06 sep-server anacron[462258]: Anacron 2.3 started on 2025-10-28
+Oct 28 18:34:06 sep-server anacron[462258]: Normal exit (0 jobs run)
+Oct 28 18:34:06 sep-server systemd[1]: anacron.service: Deactivated successfully.
+Oct 28 18:34:06 sep-server systemd[1]: session-801.scope: Deactivated successfully.
+Oct 28 18:34:06 sep-server systemd[1]: session-801.scope: Consumed 45.476s CPU time.
+Oct 28 18:35:01 sep-server CRON[462266]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 18:37:14 sep-server systemd[1]: Started Session 807 of User sep.
+Oct 28 18:37:45 sep-server systemd[1]: session-807.scope: Deactivated successfully.
+Oct 28 18:37:45 sep-server systemd[1]: session-807.scope: Consumed 16.731s CPU time.
+Oct 28 18:40:23 sep-server systemd[1]: Started Session 808 of User sep.
+Oct 28 18:45:01 sep-server CRON[462565]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 18:45:52 sep-server systemd[1]: Started Session 810 of User sep.
+Oct 28 18:55:01 sep-server CRON[462853]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 19:01:28 sep-server systemd[1]: session-810.scope: Deactivated successfully.
+Oct 28 19:01:28 sep-server systemd[1]: session-810.scope: Consumed 2.600s CPU time.
+Oct 28 19:01:36 sep-server crontab[462943]: (sep) LIST (sep)
+Oct 28 19:01:48 sep-server crontab[462947]: (root) LIST (root)
+Oct 28 19:05:01 sep-server CRON[462972]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 19:07:34 sep-server crontab[463225]: (sep) LIST (sep)
+Oct 28 19:15:01 sep-server CRON[463255]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 19:17:01 sep-server CRON[463265]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 28 19:21:33 sep-server systemd[1]: Started Session 815 of User sep.
+Oct 28 19:21:39 sep-server systemd[1]: session-815.scope: Deactivated successfully.
+Oct 28 19:21:47 sep-server crontab[463438]: (sep) LIST (sep)
+Oct 28 19:24:58 sep-server systemd[1]: session-808.scope: Deactivated successfully.
+Oct 28 19:24:58 sep-server systemd[1]: session-808.scope: Consumed 34.655s CPU time.
+Oct 28 19:25:01 sep-server CRON[463665]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 19:25:53 sep-server systemd[1]: Started Session 817 of User sep.
+Oct 28 19:27:56 sep-server systemd[1]: Started Session 818 of User sep.
+Oct 28 19:30:01 sep-server CRON[463873]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Oct 28 19:34:20 sep-server systemd[1]: Started Run anacron jobs.
+Oct 28 19:34:20 sep-server systemd[1]: anacron.service: Deactivated successfully.
+Oct 28 19:34:20 sep-server anacron[463890]: Anacron 2.3 started on 2025-10-28
+Oct 28 19:34:20 sep-server anacron[463890]: Normal exit (0 jobs run)
+Oct 28 19:35:01 sep-server CRON[463897]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 28 19:38:35 sep-server crontab[464022]: (sep) LIST (sep)
+Oct 28 19:45:01 sep-server CRON[464063]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+
+==== KONEC ====
